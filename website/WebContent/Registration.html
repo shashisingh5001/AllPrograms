@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+  function show()
+ {
+  
+     var e=document.getElementById("email").value
+     var r=document.getElementById("name").value
+     var t=document.getElementById("pass").value
+     alert(e,r,t);
+
+  }
+
+
+</script>
+</head>
+<body>
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="style.css">
+
+<div class="form-wrap" autocomplete="off">
+		<div class="tabs">
+			<h3 class="signup-tab"><a class="active" href="#signup-tab-content" >Sign Up</a></h3>
+
+		</div>
+
+		<div class="tabs-content">
+			<div id="signup-tab-content" class="active">
+				<form class="signup-form"  method="post" action="Sa">
+					<input type="email" class="input" name="email" id="email"autocomplete="off" placeholder="Email">
+					
+					<input type="text" class="input" name="name" id="name" autocomplete="off" placeholder="Username">
+					<input type="password" class="input" name="pass" id="pass" autocomplete="off" placeholder="Password"/>
+					<form>
+					
+					<input type="submit" style="color:green" onclick='show()'formaction="index.html">
+					<span ></span>
+				    
+					</form>
+				</form>
+			</div>
+
+		
+		</div>
+	</div>
+</body>
+</html>
